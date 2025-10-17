@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 
 app = Flask(__name__)
-app.secret_key = "mi_clave_secreta"  # Necesario para sesiones y flash
+app.secret_key = "candi"  # Necesario para sesiones y flash
 
 # Usuario de prueba
 users = {
